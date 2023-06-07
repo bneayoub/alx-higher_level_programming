@@ -1,13 +1,13 @@
 #include "lists.h"
-#include <stdlib.h>
 #include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * insert_node - insert a node inside a sorted list
  * @head: head of the list
  * @number: the number to add within a list
  * Return: the new Node
 */
-
 listint_t *insert_node(listint_t **head, int number)
 {
     listint_t *current;
