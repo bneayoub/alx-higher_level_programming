@@ -3,7 +3,8 @@
 
 int is_palindrome(listint_t **head)
 {
-	listint_t *curr = *head, *tmp;
+	listint_t *curr = *head;
+	static listint_t *tmp;
 
 	if (curr == NULL)
 		return (1);
