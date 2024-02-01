@@ -5,8 +5,7 @@
 - of the X-Request-Id variable found in the header ofthe response.
 """
 import sys
-import urllib.request
-import requests
+from requests import urllib
 
 if __name__ == "__main__":
     url = sys.argv[1]
